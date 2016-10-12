@@ -16,16 +16,17 @@
 #
 
 name "setuptools"
-default_version "0.7.7"
+default_version "28.3.0"
 
 dependency "python"
 
-source :url => "https://pypi.python.org/packages/source/s/setuptools/setuptools-#{version}.tar.gz",
-       :md5 => '0d7bc0e1a34b70a97e706ef74aa7f37f'
+source :url => "https://github.com/pypa/setuptools/archive/v#{version}.tar.gz",
+       :sha256 => '726d5247151b1be1fcc6b64bdb22df029364a75a4856a464ad88be65d285ab46'
 
 relative_path "setuptools-#{version}"
 
 build do
   ship_license "PSFL"
+  command "#{install_dir}/embedded/bin/python bootstrap.py"
   command "#{install_dir}/embedded/bin/python setup.py install --prefix=#{install_dir}/embedded"
 end
