@@ -29,7 +29,7 @@ source :url => "http://python.org/ftp/python/#{version}/Python-#{version}.tgz",
 relative_path "Python-#{version}"
 
 env = {
-  "CFLAGS" => "-I#{install_dir}/embedded/include -O3 -g -pipe",
+  "CFLAGS" => "-I#{install_dir}/embedded/include -O2 -g -pipe",
   "LDFLAGS" => "-Wl,-rpath,#{install_dir}/embedded/lib -L#{install_dir}/embedded/lib"
 }
 
