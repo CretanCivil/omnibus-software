@@ -16,12 +16,12 @@
 #
 
 name "setuptools"
-default_version "28.3.0"
+default_version "28.8.0"
 
 dependency "python"
 
 source :url => "https://github.com/pypa/setuptools/archive/v#{version}.tar.gz",
-       :sha256 => '726d5247151b1be1fcc6b64bdb22df029364a75a4856a464ad88be65d285ab46'
+       :sha256 => 'd3b2c63a5cb6816ace0883bc3f6aca9e7890c61d80ac0d608a183f85825a7cc0'
 
 relative_path "setuptools-#{version}"
 
