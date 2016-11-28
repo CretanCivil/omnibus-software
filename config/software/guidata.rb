@@ -6,7 +6,7 @@ dependency 'pyside'
 #https://github.com/PierreRaybaut/guidata/archive/v1.6.1.zip
 #source :url => "https://guidata.googlecode.com/files/guidata-#{version}.zip",
 source :url => "https://github.com/PierreRaybaut/guidata/archive/v#{version}.zip",
-	   :md5 => '47d625f998b5092ba797c8657979aa94'
+	   :md5 => '6827b98db4aca3ca50a7efa419367633'
        # :sha1 => 'abc80daf473562eb6132c2245d8108afe6451645'
 
 relative_path "guidata-#{version}"
