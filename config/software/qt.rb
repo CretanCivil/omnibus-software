@@ -6,7 +6,7 @@ dependency "homebrew"
 
 build do
   #command "cd $( brew --prefix ) && git checkout a5112b"
-  command "cd $( brew --repository ) && git checkout a5112b"
-  command "brew install qt"
-  command "brew linkapps qt"
+  #command "cd $( brew --repository ) && git checkout a5112b"
+  #command "brew install qt"
+  #command "brew linkapps qt"
 end
