@@ -1,5 +1,5 @@
 name "datadog-gohai"
-default_version "last-stable"
+default_version "master"
 
 env = {
   "GOROOT" => "/usr/local/go",
