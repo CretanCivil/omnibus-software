@@ -3,7 +3,7 @@ default_version "2.6.0"
 
 relative_path "flex-2.6.0"
 
-source :url => "https://fossies.org/linux/misc/flex-2.6.0.tar.gz",
+source :url => "http://sourceforge.mirrorservice.org/f/fl/flex/flex-2.6.0.tar.gz",
        :md5 => "5724bcffed4ebe39e9b55a9be80859ec"
 
 
