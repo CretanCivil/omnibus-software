@@ -21,7 +21,7 @@ default_version "3.0.13"
 dependency "libgcc"
 dependency "libtool"
 
-source :url => "ftp://sourceware.org/pub/libffi/libffi-3.0.13.tar.gz",
+source :url => "http://pkgs.fedoraproject.org/repo/pkgs/libffi/libffi-3.0.13.tar.gz/45f3b6dbc9ee7c7dfbbbc5feba571529/libffi-3.0.13.tar.gz",
        :md5 => '45f3b6dbc9ee7c7dfbbbc5feba571529'
 
 relative_path "libffi-3.0.13"
