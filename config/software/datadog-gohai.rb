@@ -9,7 +9,7 @@ env = {
 if ohai['platform_family'] == 'mac_os_x'
   env.delete "GOROOT"
   gobin = "/usr/local/bin/go"
-  gohai = "whpv"
+  gohai = "CretanCivil"
 else
   gobin = "/usr/local/go/bin/go"
   gohai = "DataDog"
